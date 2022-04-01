@@ -1,18 +1,17 @@
 body {
     cursor: grabbing;
     color: darkred;
-    background-image: url(https://github.com/cre8ivesolutions/Tammys-Portfolio/blob/main/images/Moon.jpg); 
-     background-size: cover;
-    background-position: center;
+    background-image: "..\images\moon.jpg";
+    background-position: center; 
     font: 1em/150% Helvetica, Arial, sans-serif; padding: 1em; margin: 0 auto; max-width: 33em;
 }
 p {
     background-color: turquoise;
-    text-align: center;
+    text-align: left;
 }
 h1 {
-    text-align: left;
-    text: black;
+    text-align: justify;
+    color: black;
 }
 h2 {
     text-align: center;
