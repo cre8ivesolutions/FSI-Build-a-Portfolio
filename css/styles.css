@@ -1,0 +1,35 @@
+body {
+    cursor: grabbing;
+    color: darkred;
+    background-image: url(https://github.com/cre8ivesolutions/Tammys-Portfolio/blob/main/images/Moon.jpg); 
+     background-size: cover;
+    background-position: center;
+    font: 1em/150% Helvetica, Arial, sans-serif; padding: 1em; margin: 0 auto; max-width: 33em;
+}
+p {
+    background-color: turquoise;
+    text-align: center;
+}
+h1 {
+    text-align: left;
+    text: black;
+}
+h2 {
+    text-align: center;
+    text-emphasis-color: black;
+}
+container {
+    column-count: 2;
+    column-rule: 4px dotted whitesmoke;
+}
+img {
+    border-radius: 50px;
+    float:left;
+    margin-right: 3mm;
+    margin-bottom: 3mm;
+    margin-top: 3mm;
+    margin-left: 3mm;
+}
+Footer {
+    position: fixed bottom;
+}
