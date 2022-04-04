@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #F2F2F2;
+  }
+  a[class=.moonshoot] {
+    font-family: 'Rubik Glitch' 2em;
+    color: whitesmoke:azure;
+  }
+  
+  h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif, bold;
+  }
+  h2 {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif, bold;
+    text-align: left;
+    -webkit-text-emphasis-color: black;
+    text-emphasis-color: black;
+    margin: 2em;
+  }
+  
+  body {
+    color: #4b0853;
+    background-position: center;
+    font-family: "Rubik Glitch", 1em;
+    padding: 1em;
+    margin: 1 auto;
+    max-width: 100%;
+    background-image: linear-gradient(turquoise, whitesmoke);
+
+  }
+  
+  cursor {
+    color: darkorange;
+  }
+  
+  p {
+    background-color: turquoise;
+    text-align: justify;
+  }
+  
+
+  
+  h3 {
+      color: whitesmoke;
+      li: font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  col {
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-rule: 4px dotted whitesmoke;
+    column-rule: 4px dotted whitesmoke;
+  }
+  
+  img {
+    border-radius: 50px;
+    float: right;
+    margin-right: 3mm;
+    margin-bottom: 3mm;
+    margin-top: 3mm;
+    margin-left: 3mm;
+  }
+  

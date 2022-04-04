@@ -1,34 +1,102 @@
-body {
-    cursor: grabbing;
-    color: darkred;
-    background-image: "..\images\moon.jpg";
-    background-position: center; 
-    font: 1em/150% Helvetica, Arial, sans-serif; padding: 1em; margin: 0 auto; max-width: 33em;
+:root {
+  --primary-color: #F2F2F2;
 }
-p {
-    background-color: turquoise;
-    text-align: left;
+p.moonshoot {
+  font-family: 'Rubik Glitch' 2em;
+  color: whitesmoke:azure;
+  .multi-bg-example {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://media.istockphoto.com/photos/earths-full-moon-v3-picture-id157638771?b=1&k=20&m=157638771&s=170667a&w=0&h=IyK87ZHyPnSVOJdohkGHtKztZ17mpxlUT578pN1LcPc=);
+       background-position: center;
+  }
+}.tiledBackground {
+  background-image: url(https://media.istockphoto.com/photos/earths-full-moon-v3-picture-id157638771?b=1&k=20&m=157638771&s=170667a&w=0&h=IyK87ZHyPnSVOJdohkGHtKztZ17mpxlUT578pN1LcPc=);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  color: darkblue;
+}
+.multi-bg-example {
+  width: 100%;
+  height: 400px;
+  background-image: alt= "Moon" src="images/Moon.jpg",
+      linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-repeat: no-repeat,
+      no-repeat,
+      no-repeat;
+  background-position: bottom right,
+      left,
+      right;
 }
 h1 {
-    text-align: justify;
-    color: black;
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif, bold;
 }
+
 h2 {
-    text-align: center;
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif, bold;
+  text-align: left;
+    -webkit-text-emphasis-color: black;
     text-emphasis-color: black;
+    margin: 2em;
 }
+
+body {
+  color: whitesmoke;
+  background-position: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 1em;
+  margin: 1 auto;
+  max-width: 100%;
+  border-image: round;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(turquoise), to(whitesmoke));
+  background-image: linear-gradient(turquoise, black);
+}
+.moonpic {
+  background-image: 100% transparent 50%;
+
+p {
+  background-color: turquoise;
+  text-align: justify;
+}
+
+.moonshoot {
+  font-family: 'Rubik Glitch';
+  color: black;
+  font-size: 1em;
+}
+
+h2 {
+  text-align: left;
+  -webkit-text-emphasis-color: black;
+  text-emphasis-color: black;
+}
+
+h3 { 
+  color: whitesmoke;
+  li: font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 container {
-    column-count: 2;
-    column-rule: 4px dotted whitesmoke;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -webkit-column-rule: 4px dotted whitesmoke;
+  column-rule: 4px dotted whitesmoke;
 }
+
 img {
-    border-radius: 50px;
-    float:left;
-    margin-right: 3mm;
-    margin-bottom: 3mm;
-    margin-top: 3mm;
-    margin-left: 3mm;
+  border-radius: 50%;
+  float: right;
+  margin-right: 3mm;
+  margin-bottom: 3mm;
+  margin-top: 3mm;
+  margin-left: 3mm;
 }
+
 Footer {
-    position: fixed bottom;
+  position: fixed bottom;
 }
+/*# sourceMappingURL=styles.css.map */
