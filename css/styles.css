@@ -1,11 +1,12 @@
 :root {
   --primary-color: #F2F2F2;
 }
-.container.div {
+#container.div {
+  background-image: url(/images/Moon.jpeg);
   background-size: auto;
   background-position: center;
   margin: 0em;
-  padding: 2em:
+  padding: 2em;
   }
 
 h1 {
