@@ -1,40 +1,58 @@
-:root {
-  --primary-color: #F2F2F2;
-}
-#container.div {
-  background-image: url(/images/Moon.jpeg);
-  background-size: auto;
-  background-position: center;
-  margin: 0em;
-  padding: 2em;
+.bg-image {
+  background: url(/images/Moon.jpeg);
+  size: auto;
+  background-size: 100%;
+    }
+.bg-image img {
+  background: url(/images/Moon.jpeg);  
+  background-size: 100%;
   }
 
 h1 {
-  color: darkred;
-  text-align: center;
+  color:white;
 }
 
 h2 {
-  color: darkred;
-  text-align: center;
+  color: rgb(145, 252, 242);
+  margin-top: 0em;
+  margin-bottom: 3em;
   }
 
-.moon-text {
-  font-family: 'Rubik Glitch' 2em;
+.moonText {
+  font-family: Impact, bold, 4em;
+  color: white;
   text-align: center;
-}
-
-body {
-  color: whitesmoke;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 1em;
-  margin: 1em;
-  max-width: 100%;
+  font-style: italic;
 }
 
 img {
   border-radius: 50%;
-  float: right;
-  margin: 1em;
+  float: left;
+  margin-top: 0em;
+  margin-right: 3em;
+  padding: .5em;
+}
+
+h3 {
+  margin-top: 4em;
+}
+hr {
+  margin: 3em;
+  padding: 0%;
+  size: 1;
+}
+
+body {
+  color: rgb(145, 252, 242);
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 1em;
+  margin: auto;
+  max-width: 85%;
+  background-image: url("/images/Moon.jpeg");
+  background-size: auto;
+  background-image: linear-gradient(rgb(22, 97, 97), rgb(11, 88, 93));  
+  background-position: center;
+  border-style: solid;
+  border-color: rgb(145, 252, 242;
+  border-width: 1em;
 }
