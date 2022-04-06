@@ -54,15 +54,7 @@ p {
   color: rgb(9, 74, 95);
   padding: .5;
 }
-.contactinfo {
-  color: white;
-  text-indent: 0;
-  text-align: center;
-  font-weight: bold;
-  text-decoration-color: aliceblue;
-  padding: 0;
-  margin: .5em;
-}
+
 li {
   margin: 1em;
   color: rgb(9, 74, 95);
@@ -84,7 +76,13 @@ li {
   position: sticky;
   top: auto;
 }
-
+#moonshoot {
+  background-image: url(https://images.unsplash.com/photo-1532893890977-95acae8b13fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+  background-position: cover;
+  background-size: 100%;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
 #moonText {
   font-family: 'Rubik Glitch';color: whitesmoke;  font-style: italic;
   text-align: center;
@@ -113,4 +111,22 @@ a:link {
 #contactme {
   margin: 20px 0 1 1
 }
-
+footer {
+  position: fixed bottom;
+  color: white;
+  text-indent: 0;
+  text-align: center;
+  font-weight: bold;
+  text-decoration-color: aliceblue;
+  padding: 0;
+  margin: .5em;
+}
+.contactinfo {
+  color: white;
+  text-indent: 0;
+  text-align: center;
+  font-weight:200;
+  text-decoration-color: aliceblue;
+  padding: 0;
+  margin: .5em;
+}
