@@ -47,18 +47,18 @@ img {
   border: solid rgba(197, 106, 61, 0.65) 6px;
 }
 h3 {
-  color: rgb(151, 218, 240);
+  color: rgb(14, 14, 27);
   padding: 0;
 }
 p {
   margin: 1em;
-  color: rgb(9, 74, 95);
+  color: rgb(7, 43, 56);
   padding: .5;
   word-spacing: 1.5px;
   }
 li {
   margin: 1em;
-  color: rgb(9, 74, 95);
+  color: rgb(7, 43, 56);
   padding-left: 35px;
   list-style-type: none;
   list-style-position: inside;
@@ -102,24 +102,24 @@ li {
   box-shadow: 5px 5px 15px 5px #000000;
 }
 a {
-  color: whitesmoke
+  color: hsl(20, 54%, 51%);
   
 }
 a:hover {
   color: darkblue
 }
 a:visited {
-  color: lightblue;
+  color: darkblue;
 }
 a:link {
-  color:rgb(145, 252, 242)
+  color: hsl(20, 54%, 51%);
 }
 #contactme {
   margin: 20px 0 1 1
 }
 footer {
   position: fixed bottom;
-  color: white;
+  color: hsl(20, 54%, 51%);  
   text-indent: 0;
   text-align: center;
   font-weight: bold;
@@ -128,7 +128,7 @@ footer {
   margin: .5em;
 }
 .contactinfo {
-  color: white;
+  color: hsl(20, 54%, 51%);
   text-indent: 0;
   text-align: center;
   font-weight:200;
